@@ -140,3 +140,18 @@ nav button {
   color: rgb(13, 19, 33);
   text-decoration: none;
 }
+
+
+/* inspiratin section */
+
+.inspiration-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inspiration-video{
+  border-radius: 16px;
+  margin-bottom: 50px;
+}
