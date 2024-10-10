@@ -155,3 +155,86 @@ nav button {
   border-radius: 16px;
   margin-bottom: 50px;
 }
+
+
+/* current target section */
+
+.current-target-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.targets-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.target-item{
+  width: 30%;
+  margin-right: 10px;
+}
+.target-item a {
+  color: rgb(13, 19, 33);
+}
+
+/* support section */
+.support-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.support-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/handshake.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    width: 80%;
+    padding: 64px 48px 64px 48px;
+    /* Absolute path example */
+}
+
+.support-div small{
+  color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+button[type="submit"] {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+footer p{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
