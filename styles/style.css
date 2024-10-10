@@ -53,38 +53,90 @@ nav button {
   text-align: center;
 }
 
+.hero-bg h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 58px;
+  font-weight: 800;
 
-.hero-bg h1{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 58px;
-font-weight: 800;
-
-text-align: center;
+  text-align: center;
 }
 
-.hero-bg small{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 400;
+.small-p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
 }
-.hero-bg button{
-    border-radius: 8px;
+.hero-bg button {
+  border-radius: 8px;
 
-background: rgb(13, 19, 33);
-color: white;
-width: 240px;
-height: 60px;
+  background: rgb(13, 19, 33);
+  color: white;
+  width: 240px;
+  height: 60px;
 }
 
-.hero-bg button a{
-    color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-text-decoration: none;
+.hero-bg button a {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* web-dev section */
+
+.web-dev {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-dev-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.web-dev-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.web-dev-img {
+  width: 40%;
+  padding-left: 20px;
+}
+
+.web-dev-text h4 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.web-dev-btn {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  width: 171px;
+  height: 47px;
+  margin-top: 50px;
+
+  padding: 12px 20px 12px 20px;
+}
+
+.web-dev-btn a {
+  color: rgb(13, 19, 33);
+  text-decoration: none;
 }
