@@ -1,0 +1,90 @@
+.azeret-mono-font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+nav h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 27px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+nav button {
+  width: 240px;
+  height: 55px;
+  padding: 17px 24px 17px 24px;
+}
+.btn-text {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.navbtn {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* hero-bg section */
+
+.hero-bg {
+  background-image: url("../assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 638px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.hero-bg h1{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 58px;
+font-weight: 800;
+
+text-align: center;
+}
+
+.hero-bg small{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 400;
+}
+.hero-bg button{
+    border-radius: 8px;
+
+background: rgb(13, 19, 33);
+color: white;
+width: 240px;
+height: 60px;
+}
+
+.hero-bg button a{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration: none;
+}
